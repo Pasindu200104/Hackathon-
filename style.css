@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "nunito";
+    src: url("fonts/Nunito-Bold.ttf");
+}
+*{
+    font-family: "nunito";
+}
+.input-background{
+    background-color: #202124;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-background:hover{
+    border: solid;
+    border-width: 0.5px;
+    border-color: aqua;
+    outline: none;
+}
+
+.back-img{
+    background-image: url("IMG/840843081452.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cus{
+    cursor: pointer;
+}
